@@ -17,3 +17,6 @@ sudo apt install -y yarn
 sudo apt remove --autoremove --purge -y python3-pipenv || true
 sudo apt remove --autoremove --purge -y pipenv || true
 sudo pip3 install pipenv
+
+
+curl -sL https://firebase.tools | upgrade=true bash
