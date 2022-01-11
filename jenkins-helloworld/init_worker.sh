@@ -14,6 +14,6 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 
 sudo apt install -y yarn
 
-sudo apt remove --autoremove --purge python3-pipenv || true
-sudo apt remove --autoremove --purge pipenv || true
+sudo apt remove --autoremove --purge -y python3-pipenv || true
+sudo apt remove --autoremove --purge -y pipenv || true
 sudo pip3 install pipenv
