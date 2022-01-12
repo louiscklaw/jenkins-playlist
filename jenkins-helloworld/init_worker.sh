@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# curl https://raw.githubusercontent.com/louiscklaw/jenkins-playlist/master/jenkins-helloworld/init_worker.sh | bash
+
 set -ex
 
 echo 'helloworld init_worker'
