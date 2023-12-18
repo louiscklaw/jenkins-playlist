@@ -10,3 +10,4 @@ services:
       - HELLO=world
     volumes:
       - ./jenkins_home:/var/jenkins_home
+      - /workspace:/workspace
