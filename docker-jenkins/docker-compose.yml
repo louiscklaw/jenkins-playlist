@@ -1,0 +1,12 @@
+services:
+  jenkins_lts:
+    image: 192.168.10.61:5000/logickee/jenkins_lts
+    # build: ./node-helloworld
+    ports:
+      - 8087:8080
+      - 50000:50000
+    user: 1000:1000
+    environment:
+      - HELLO=world
+    volumes:
+      - ./jenkins_home:/var/jenkins_home
